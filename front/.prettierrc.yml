@@ -5,4 +5,4 @@ tabWidth: 2
 # ダブルクオテーションの代わりにシングルクオテーションを利用する
 singleQuote: true
 # 末尾のセミコロンを無しにする
-semi: false
+semi: true

@@ -1,8 +1,5 @@
 <script setup>
-const test = () => {
-  console.log()
-}
-
+const test = () => {}
 </script>
 
 <template>

@@ -1,20 +1,20 @@
-<script setup>
+<script setup lang="ts">
 const enableCustomLayout = () => {
-  setPageLayout('custom')
-}
+  setPageLayout("custom");
+};
 
-const unko = ref('aaa')
+const test = ref<string>('aaa');
 </script>
 
 <template>
   <h1>
-    {{ unko }}
+    {{ test }}
     <button @click="enableCustomLayout">updateLayout</button>
   </h1>
 </template>
 
-<script>
+<script lang="ts">
 definePageMeta({
   layout: false,
-})
+});
 </script>

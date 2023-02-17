@@ -1,8 +1,12 @@
 # 80文字で折り返す
 printWidth: 80
 # 半角スペースの数を2にする
-tabWidth: 2
+tabWidth: 4
 # ダブルクオテーションの代わりにシングルクオテーションを利用する
 singleQuote: true
 # 末尾のセミコロンを無しにする
 semi: true
+quoteProps: "preserve"
+trailingComma: "all"
+useTabs: false
+overrides: [{ files: ["*.yml"], options: { tabwidth: 2 } }]

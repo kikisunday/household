@@ -1437,7 +1437,7 @@
   "resolved" "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
   "version" "0.7.0"
 
-"chokidar@^3.5.1", "chokidar@^3.5.3":
+"chokidar@^3.5.1", "chokidar@^3.5.3", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
   "version" "3.5.3"
@@ -3016,6 +3016,11 @@
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-5.2.4.tgz"
   "version" "5.2.4"
 
+"immutable@^4.0.0":
+  "integrity" "sha512-WDxL3Hheb1JkRN3sQkyujNlL/xRjAo3rJtaU5xeufUauG66JdMr32bLj4gF+vWl84DIA3Zxw7tiAjneYzRRw+w=="
+  "resolved" "https://registry.npmjs.org/immutable/-/immutable-4.2.4.tgz"
+  "version" "4.2.4"
+
 "import-fresh@^3.0.0", "import-fresh@^3.2.1":
   "integrity" "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw=="
   "resolved" "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz"
@@ -3601,6 +3606,11 @@
   "version" "3.1.0"
   dependencies:
     "semver" "^6.0.0"
+
+"mdi@^2.2.43":
+  "integrity" "sha512-g3m6z4303qieltUM20JL2gdsJZvoVzIzO74qa2XxZ2kg9JPwrPEAgooVhRDHZi1vvRh0gB8Dg+c9XqNdz4jcIg=="
+  "resolved" "https://registry.npmjs.org/mdi/-/mdi-2.2.43.tgz"
+  "version" "2.2.43"
 
 "mdn-data@2.0.14":
   "integrity" "sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow=="
@@ -4813,6 +4823,15 @@
   "resolved" "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
+"sass@*", "sass@^1.58.2":
+  "integrity" "sha512-2mbyOWOv/lhEXD6nVrQZQ4KT2DlwcODbTskM42EyqBAFUWOhiiYtAXZqjZz1ygzapYf+N+2GwfIH9M5FM4GUMg=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.58.2.tgz"
+  "version" "1.58.2"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
+    "immutable" "^4.0.0"
+    "source-map-js" ">=0.6.2 <2.0.0"
+
 "scule@^1.0.0":
   "integrity" "sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ=="
   "resolved" "https://registry.npmjs.org/scule/-/scule-1.0.0.tgz"
@@ -4939,7 +4958,7 @@
   "resolved" "https://registry.npmjs.org/smob/-/smob-0.0.6.tgz"
   "version" "0.0.6"
 
-"source-map-js@^1.0.2":
+"source-map-js@^1.0.2", "source-map-js@>=0.6.2 <2.0.0":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
@@ -5634,6 +5653,11 @@
     "@vue/runtime-dom" "3.2.47"
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
+
+"vuetify@^3.1.4":
+  "integrity" "sha512-6DJYNuKrbxuL+MThmj+VbtvK9X3mY+s8Rqj1juj4RyeLSIAhE3byZf8Bo2/GxrU5Jv3zR07LZdpiq4wIl0ONzA=="
+  "resolved" "https://registry.npmjs.org/vuetify/-/vuetify-3.1.5.tgz"
+  "version" "3.1.5"
 
 "wcwidth@^1.0.1":
   "integrity" "sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg=="

@@ -3,7 +3,7 @@
 <template>
   <div class="content">
     <v-row>
-      <v-col v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
+      <v-col v-for="n in 9" :key="n" class="child-flex content__col" cols="6">
         <OrganismsHvideo :roopNum="n" />
       </v-col>
     </v-row>

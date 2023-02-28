@@ -1,8 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>ドッキリ動画保存庫</h1>
-  <div class="test">
+  <div class="content">
     <v-row>
       <v-col v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
         <OrganismsHvideo :roopNum="n" />

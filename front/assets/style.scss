@@ -1,12 +1,13 @@
 .class {
-	.container {
-		padding: 10px 20px;
-		.inner {
-			width: 100%;
-		}
-	}
+  .container {
+    padding: 10px 20px;
+    .inner {
+      width: 100%;
+    }
+  }
 }
 
-.test {
-  margin: 100px;
+.content {
+  // margin: 100px;
+  height: 100vh;
 }

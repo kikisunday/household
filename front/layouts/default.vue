@@ -4,7 +4,7 @@ const links = [''];
 
 <template>
   <v-app>
-    <v-app-bar color="teal-darken-4">
+    <v-app-bar color="teal-darken-4 header">
       <template v-slot:prepend>
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
       </template>

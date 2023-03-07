@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+onMounted(async () => {
+  console.log('hello');
+  const test = await useFetch('/api/hello');
+  console.log(test.data.value?.server);
+});
+</script>
 
 <template>
   <div class="content">
